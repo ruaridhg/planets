@@ -1,0 +1,35 @@
+    1  git config --global user.name "ruaridhg"
+    2  git config --global user.email "ruaridhg@users.noreply.github.com"
+    3  git config --global core.autocrlf
+    4  git config --global core.autocrlf input
+    5  git config --global core.editor "vim"
+    6  git config --global core.editor "code --wait"
+    7  git config --global init.defaultBranch main
+    8  git config --list
+    9  git config --global core.autocrlf true
+   10  git config --list
+   11  git config -h
+   12  git config --help
+   13  cd ~/Desktop
+   14  ls
+   15  mkdir planets
+   16  cd planets
+   17  ls
+   18  git init
+   19  ls
+   20  ls -a
+   21  git checkout -b main
+   22  git status
+   23  git status
+   24  cd ..
+   25  ls
+   26  cd shell-lesson-data
+   27  git status
+   28  cd ../planets
+   29  ls
+   30  ls -a
+   31  history | tail -n 5
+   32  history | tail -n 30
+   33  history
+   34  history | tail -n 5 > git_tutorial.txt
+   35  history > git_tutorial.txt
